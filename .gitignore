@@ -1,0 +1,54 @@
+bin/
+target/
+terraform/
+
+### Eclipse/STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Vim ###
+.vim
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Maven Shade Plugin ###
+dependency-reduced-pom.xml
+
+### Gradle ###
+.gradle
+
+### Others ###
+logs/
+*.log
+*.bak
+*.orig
+coverage-error.log
+*.DS_Store
+
+### Maven ###
+*.releaseBackup
+release.properties
+!.mvn/wrapper/maven-wrapper.jar
+
+### pipeline build ###
+Dockerfile
+runme.sh
+albs.json
+build.image.id
+lombok.config
